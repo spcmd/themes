@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Numix-UbuntuOrange-spcmd
+Comment=A modern flat theme
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Numix-UbuntuOrange-spcmd
+MetacityTheme=Numix-UbuntuOrange-spcmd
+ButtonLayout=:minimize,maximize,close
