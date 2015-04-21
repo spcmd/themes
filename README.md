@@ -1,5 +1,5 @@
 # themes
-Themes for Openbox, GTK and other stuff
+Themes for Openbox, GTK and other stuff.
 
 ## Numix-UbuntuOrange-spcmd
 
@@ -8,6 +8,14 @@ A slightly modified version of the default Numix theme for Openbox. Changed the 
 ![](https://raw.githubusercontent.com/spcmd/spcmd.github.io/master/img/Numix-UbuntuOrange-spcmd_shot1.png)
 
 ![](https://raw.githubusercontent.com/spcmd/spcmd.github.io/master/img/Numix-UbuntuOrange-spcmd_shot2.png)
+
+## Numix-Dark-RetroBlue-spcmd
+
+A modified version of the default Numix theme for Openbox.
+
+![](https://raw.githubusercontent.com/spcmd/spcmd.github.io/master/img/Numix-Dark-RetroBlue-spcmd_shot1.png)
+
+![](https://raw.githubusercontent.com/spcmd/spcmd.github.io/master/img/Numix-Dark-RetroBlue-spcmd_shot2.png)
 
 ####Installation
 
