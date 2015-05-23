@@ -85,7 +85,7 @@ osd.border.width: 1
 osd.border.color: #000
 
 osd.bg: flat solid
-osd.bg.color: #dedede
+osd.bg.color: #151515
 osd.label.bg: flat solid
 osd.label.bg.color: #151515
 osd.label.text.color: #fff
