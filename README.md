@@ -1,15 +1,20 @@
 # Awesome WM themes
 
+### archie-blue
+
+"Arch blue" theme for Awesome.
+
+![](https://raw.githubusercontent.com/spcmd/spcmd.github.io/master/img/archie-blue-theme.jpg)
+
 ### awmi3-blue
 
 Inspired by i3 wm's blue titlebar.
-[[large screenshot]](https://raw.githubusercontent.com/spcmd/spcmd.github.io/master/img/awesome-i3-blue-theme.jpg)
 
 ![](https://raw.githubusercontent.com/spcmd/spcmd.github.io/master/img/awesome-i3-blue-theme.jpg)
 
 ### Installation
 
-Copy the awmi3-blue folder to your awesome themes directory (`~/.config/awesome/themes`) and set the theme's path in your `rc.lua` file.
+Copy & Paste the selected theme folder(s) to your awesome themes directory (`~/.config/awesome/themes`) and set the theme's path in your `rc.lua` file.
 
 # Openbox & GTK themes
 
