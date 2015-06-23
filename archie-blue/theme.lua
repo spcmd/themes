@@ -95,7 +95,7 @@ theme.layout_tiletop = "~/.config/awesome/themes/archie-blue/layouts/tiletop.png
 theme.layout_spiral  = "~/.config/awesome/themes/archie-blue/layouts/spiral.png"
 theme.layout_dwindle = "~/.config/awesome/themes/archie-blue/layouts/dwindle.png"
 
-theme.awesome_icon = "~/.config/awesome/themes/archie-blue/awesome16.png"
+theme.awesome_icon = "~/.config/awesome/themes/archie-blue/arch22.png"
 
 -- Define the icon theme for application icons. If not set then the icons
 -- from /usr/share/icons and /usr/share/icons/hicolor will be used.
