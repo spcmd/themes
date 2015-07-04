@@ -16,6 +16,12 @@ Inspired by i3 wm's blue titlebar.
 
 Copy & Paste the selected theme folder(s) to your awesome themes directory (`~/.config/awesome/themes`) and set the theme's path in your `rc.lua` file.
 
+# GTK themes
+
+### Adwaita-i3-blue-spcmd
+
+![](https://raw.githubusercontent.com/spcmd/spcmd.github.io/master/img/Adwaita-i3-blue-spcmd-theme.png)
+
 # Openbox & GTK themes
 
 ### Numix-UbuntuOrange-spcmd
