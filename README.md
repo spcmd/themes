@@ -1,5 +1,16 @@
 # Awesome WM themes
 
+* Note: In some of the themes the background picture doesn't get set by the `theme.lua` (commented out in `theme.lua`) The reason is that someone might want to set the background with another tool, e.g.: `feh`
+
+### void & void-dark
+
+Made for [Void Linux](http://voidlinux.eu)
+
+![](https://raw.githubusercontent.com/spcmd/spcmd.github.io/master/img/awesome-void-theme.png)
+
+![](https://raw.githubusercontent.com/spcmd/spcmd.github.io/master/img/awesome-void-dark-theme.png)
+
+
 ### back to the future
 
 "Back to the Future" theme for Awesome. Made for October 21, 2015.
