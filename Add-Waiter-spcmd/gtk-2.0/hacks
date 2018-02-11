@@ -1,0 +1,98 @@
+# Xchat special cases
+widget "*xchat-inputbox" style "entry"
+
+# Eclipse/SWT
+style "null" {
+    engine "pixmap" {
+        image {
+            function    = BOX
+            file        = "null.png"
+            stretch     = TRUE
+        }
+    }
+}
+widget "gtk-tooltips*"      style "tooltips"
+widget "*swt-toolbar-flat"  style "null"
+
+# OpenOffice, LibreOffice
+style "oo_scrollbar" {
+    GtkScrollbar::stepper-size          = 13
+    GtkScrollbar::has-backward-stepper  = 1
+    GtkScrollbar::has-forward-stepper   = 1
+}
+style "oo_entry" {
+    engine "pixmap" {
+        image {
+            function    = SHADOW
+            detail      = "entry"
+            state       = NORMAL
+            shadow      = IN
+            file        = "oo-entry.png"
+            border      = { 3, 1, 2, 3 }
+            stretch     = TRUE
+        }
+        image {
+            function        = FLAT_BOX
+            detail          = "entry_bg"
+            state           = NORMAL
+            overlay_file    = "oo-entry-fill.png"
+            overlay_border  = { 0, 0, 0, 0 }
+            overlay_stretch = TRUE
+        }
+    }
+}
+style "oo_spin_entry" {
+    engine "pixmap" {
+        image {
+            function    = SHADOW
+            detail      = "entry"
+            state       = NORMAL
+            shadow      = IN
+            file        = "oo-entry-spin.png"
+            border      = { 3, 0, 2, 3 }
+            stretch     = TRUE
+        }
+        image {
+            function        = FLAT_BOX
+            detail          = "entry_bg"
+            state           = NORMAL
+            overlay_file    = "oo-entry-fill.png"
+            overlay_border  = { 0, 0, 0, 0 }
+            overlay_stretch = TRUE
+        }
+    }
+}
+widget "*openoffice-toplevel*"                style "oo_scrollbar"
+widget "*openoffice-toplevel*GtkEntry"        style "oo_entry"
+widget "*openoffice-toplevel*GtkSpinButton"   style "oo_spin_entry"
+widget "*libreoffice-toplevel*GtkEntry"       style "oo_entry"
+widget "*libreoffice-toplevel*GtkSpinButton"  style "oo_spin_entry"
+
+# Fix some unreadable text in Firefox/Iceweasel, Thunderbird/Icedove
+style "mozilla" {
+    text[NORMAL] = "grey42"
+}
+class "GtkInvisible"    style "mozilla"
+widget "GtkInvisible"   style "mozilla"
+
+# Xfwm4 TabWin theme
+style "xfwm4_tabwin" {
+    bg[SELECTED] = @border_color
+    Xfwm4TabwinWidget::preview-size     = 512
+    Xfwm4TabwinWidget::border-width     = 1
+    Xfwm4TabwinWidget::border-radius    = 3
+    Xfwm4TabwinWidget::border-alpha     = 1.0
+    Xfwm4TabwinWidget::alpha            = 1.0
+}
+widget "xfwm4-tabwin*" style "xfwm4_tabwin"
+
+# Xfce4 Notify theme
+style "xfce4_notify" {
+    XfceNotifyWindow::border-color = @border_color
+    XfceNotifyWindow::border-color-hover = @border_color
+    XfceNotifyWindow::border-radius = 3
+    XfceNotifyWindow::border-width = 1
+    XfceNotifyWindow::border-width-hover = 1
+    XfceNotifyWindow::summary-bold = 1
+}
+class "XfceNotifyWindow" style "xfce4_notify" 
