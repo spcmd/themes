@@ -61,3 +61,10 @@ A modified version of the default Numix theme for Openbox.
 ### Installation
 
 Nothing special, just copy the folder to `~/.themes`. Then you can use for example `Obconfig` and `LXAppearance` to select the Openbox and the GTK theme.
+
+### Donation
+
+Humbly accepting your kind donation
+
+[![paypal donate](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HCPYH3LWZZR9Y
+)
